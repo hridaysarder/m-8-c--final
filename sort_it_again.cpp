@@ -20,7 +20,7 @@ bool cmp(Student a, Student b)
     {
         return false;
     }
-    else if (a.eng_marks == b.eng_marks)
+    else
     {
         if (a.math_marks > b.math_marks)
         {
@@ -30,7 +30,7 @@ bool cmp(Student a, Student b)
         {
             return false;
         }
-        else if (a.math_marks == b.math_marks)
+        else
         {
             if (a.id < b.id)
             {
